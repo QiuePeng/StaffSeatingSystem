@@ -1,0 +1,18 @@
+SeatChart Table
+
+SELECT TOP (1000) [FLOOR_SEAT_SEQ]
+      ,[FLOOR_NO]
+      ,[SEAT_NO]
+  FROM [StaffSeating].[dbo].[SeatChart]
+
+
+Employee Table
+
+SELECT TOP (1000) [EMP_ID]
+      ,[NAME]
+      ,[EMAIL]
+      ,[FLOOR_SEAT_SEQ]
+  FROM [StaffSeating].[dbo].[Employee]
+
+
+
