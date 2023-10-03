@@ -8,10 +8,10 @@ Employee Table
 
 INSERT INTO Employee (EMP_ID, NAME, EMAIL)
 VALUES (12001, '比爾蓋茲','Aa12001@gmail.com'),
-		(13040, 'Janine','Ja13040@gmail.com'),
-		(12001, 'Mary','Ma13040@gmail.com'),
-		(12001, 'Helen','he16142@gmail.com'),
-		(12001, 'Paul','pa17081@gmail.com'),
-		(12001, 'Gary','Ga18016@gmail.com')
+		(15005, 'Janine','Ja15005@gmail.com'),
+		(13040, 'Mary','Ma13040@gmail.com'),
+		(16142, 'Helen','he16142@gmail.com'),
+		(17081, 'Paul','pa17081@gmail.com'),
+		(18016, 'Gary','Ga18016@gmail.com')
 
 
