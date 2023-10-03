@@ -95,7 +95,7 @@ $('#btn').click(function() {
 		        }
 			})	
 		}else {
-			alert("請選擇你的名字");
+			alert("請選擇員工");
 		}
 	}else {
         alert("請選擇一個座位");

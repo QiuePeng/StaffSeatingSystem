@@ -1,18 +1,17 @@
 SeatChart Table
 
-SELECT TOP (1000) [FLOOR_SEAT_SEQ]
-      ,[FLOOR_NO]
-      ,[SEAT_NO]
-  FROM [StaffSeating].[dbo].[SeatChart]
+INSERT INTO SeatChart (FLOOR_NO, SEAT_NO)
+VALUES (1,1),(1,2),(1,3),(1,4),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4)
 
 
 Employee Table
 
-SELECT TOP (1000) [EMP_ID]
-      ,[NAME]
-      ,[EMAIL]
-      ,[FLOOR_SEAT_SEQ]
-  FROM [StaffSeating].[dbo].[Employee]
-
+INSERT INTO Employee (EMP_ID, NAME, EMAIL)
+VALUES (12001, '比爾蓋茲','Aa12001@gmail.com'),
+		(13040, 'Janine','Ja13040@gmail.com'),
+		(12001, 'Mary','Ma13040@gmail.com'),
+		(12001, 'Helen','he16142@gmail.com'),
+		(12001, 'Paul','pa17081@gmail.com'),
+		(12001, 'Gary','Ga18016@gmail.com')
 
 
